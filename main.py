@@ -38,7 +38,7 @@ def main():
     print()
     for char_count in get_sorted_char_counts(char_counts):
         if char_count["char"].isalpha():
-            print(f"The '{char_count["char"]}' character was found {char_count["count"]} times")
+            print(f"The '{char_count['char']}' character was found {char_count['count']} times")
 
     print("--- End report ---")
 
